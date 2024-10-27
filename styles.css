@@ -5,11 +5,21 @@
     text-align: center;
 }
 
+.Center {
+    width: 700px;
+    margin: auto;
+}
+
+.Box {
+    border: 4px white;
+    border-style: solid;
+    margin: 8px;
+}
+
 .List {
     line-height: 2;
     font-weight: bold;
     list-style-position: inside;
-    text-align: left;
 }
 
 .Ordered {
@@ -24,4 +34,9 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+#visible_border {
+    border-width: 4px; border-color: blue; color: blue;
+    border-style: solid;
 }
